@@ -7,7 +7,7 @@ public abstract class Couche extends Patisserie {
 		pat = pPat;
 	}
 	
-	public String Preparer() {
+	public String preparer() {
 		String str = pat.preparer();
 		return str + nom;
 	}
